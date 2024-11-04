@@ -1,0 +1,21 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+.toggle-button {
+  background: #576972;
+  border: none;
+  border-radius: 25px; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.toggle-button:active {
+  transform: scale(0.95); 
+}
